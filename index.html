@@ -11,7 +11,7 @@
   <base href=".">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="https://kimlik.istanbul.edu.tr/assets/media/logos/favicon.ico">
-
+  <link rel="stylesheet" href="style.css">
   <style type="text/css">
     @font-face {
       font-family: 'Poppins';
@@ -2729,7 +2729,7 @@
 
     .id-wrapper[_ngcontent-yog-c35] .id-content[_ngcontent-yog-c35] {
       border-top: 1px solid #6c81a0;
-      background: url(iu-kapi.1a848269df3bcdc5.jpg) no-repeat center center;
+      background: url(iu-kapi.png) no-repeat center center;
       background-size: cover
     }
 
@@ -2843,7 +2843,24 @@
     }
 
     .id-background[_ngcontent-yog-c35] {
-      background: rgba(67, 112, 26, .75)
+      background: rgba(67, 112, 26, .75);
+      position: relative;
+
+      z-index: -2;
+      /* resmi arkaya yollar */
+    }
+
+    .resimresim {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 90%;
+      opacity: 30%;
+      object-fit: cover;
+      /* resmi orantılı şekilde doldurur */
+      z-index: -1;
+      /* resmi arkaya yollar */
     }
 
     .id-logo[_ngcontent-yog-c35] {
@@ -2951,6 +2968,7 @@
             </div>
             <div _ngcontent-yog-c35="" class="id-logo">
               <div _ngcontent-yog-c35="" class="id-background">
+                <img src="iu-kapi.png" alt="" class="resimresim">
                 <div _ngcontent-yog-c35="" class="row">
                   <div _ngcontent-yog-c35="" class="col-6 text-left p-12">
                     <div _ngcontent-yog-c35="" class="border-bottom border-light p-3">
@@ -2968,7 +2986,8 @@
                     <div _ngcontent-yog-c35="" class="border-bottom border-white p-3">
                       <div _ngcontent-yog-c35="" class="fs-6 textBaslik"><span _ngcontent-yog-c35=""
                           translate="DIJITAL_KIMLIK.NAME">Ad Soyad</span></div>
-                      <div _ngcontent-yog-c35="" class="fw-bold textMetin fw-bolder"><strong _ngcontent-yog-c35="">SENA NUR ATEŞ</strong></div>
+                      <div _ngcontent-yog-c35="" class="fw-bold textMetin fw-bolder"><strong _ngcontent-yog-c35="">SENA
+                          NUR ATEŞ</strong></div>
                     </div>
                     <div _ngcontent-yog-c35="" class="border-bottom border-light p-3">
                       <div _ngcontent-yog-c35="" class="fs-6 textBaslik"><span _ngcontent-yog-c35=""
